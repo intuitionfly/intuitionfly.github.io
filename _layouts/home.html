@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div>
+
+  {{ content }}
+
+  <ul>
+    {% for post in site.posts %}
+      <li>
+	    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span>{{ post.date | date: date_format }}</span>
+		<h2>
+          <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

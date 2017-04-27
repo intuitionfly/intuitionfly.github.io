@@ -1,0 +1,5 @@
+---
+title:  "This is another beginning"
+categories: jekyll
+---
+Here is another beginning. I will log some experience during the period of self-learning. Technical things, of course. Git Pages is awesome. That's all.
